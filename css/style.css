@@ -1,19 +1,19 @@
 
 body {
-  background-image: url("assets/forest.jpg");
+  background-image: url("tonberry1.jpg");
+  background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 h1, h3 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Cormorant Garamond', serif;
 }
-
 #header {
   border-radius: 5px;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
+  background-color: white;
   width: 100%;
 }
 /* Navbar */
