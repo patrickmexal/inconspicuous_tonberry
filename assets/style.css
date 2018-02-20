@@ -5,12 +5,24 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+div#header.row {
+  background-image: url("assets/forest.jpg")
+}
+#header {
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+}
+/* Navbar */
 .hover-underline-menu {
   width: 100%;
 }
 
 .hover-underline-menu .menu {
-  background-color: #2C3840;
+  background-color: black;
 }
 
 .hover-underline-menu .menu a {
@@ -37,4 +49,21 @@ body {
   right: 0;
   transition: all 0.5s ease;
 }
+/* Search Bar */
+.animated-search-form[type=search] {
+  width: 15rem;
+  border: 0.125rem solid #e6e6e6;
+  box-shadow: 0 0 3.125rem rgba(0, 0, 0, 0.18);
+  border-radius: 2px;
+  background-image: url("//image.ibb.co/i7NbrQ/search_icon_15.png");
+  background-position: 0.625rem 0.625rem;
+  background-repeat: no-repeat;
+  padding: 0.75rem 1.25rem 0.75rem 2rem;
+  transition: width 0.4s ease-in-out;
+}
+
+.animated-search-form[type=search]:focus {
+  width: 100%;
+}
+
 
