@@ -4,7 +4,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.container {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/4f/58/44/4f58443eead11a1a4947dca1b1c2ec36.jpg");
+}
 h1, h3 {
   font-family: "Cormorant Garamond", serif;
 }
